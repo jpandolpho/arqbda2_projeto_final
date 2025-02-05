@@ -103,7 +103,26 @@ INSERT INTO meditacao (id_meditacao, titulo, descricao, duracao)
 INSERT INTO meditacao (id_meditacao, titulo, descricao, duracao) 
     VALUES (meditacao_seq.NEXTVAL, 'Meditação do Perdão', 'Prática para cultivar o perdão.', 22);
 
-/*historicomeditacao*/
+INSERT INTO historicomeditacao (id_historico, id_usuario, id_meditacao, data_acesso)
+	VALUES (1, 1, 1, TO_DATE('2024-01-05', 'YYYY-MM-DD'));
+INSERT INTO historicomeditacao (id_historico, id_usuario, id_meditacao, data_acesso)
+	VALUES (2, 2, 2, TO_DATE('2024-01-06', 'YYYY-MM-DD'));
+INSERT INTO historicomeditacao (id_historico, id_usuario, id_meditacao, data_acesso)
+	VALUES (3, 3, 3, TO_DATE('2024-01-07', 'YYYY-MM-DD'));
+INSERT INTO historicomeditacao (id_historico, id_usuario, id_meditacao, data_acesso)
+	VALUES (4, 4, 4, TO_DATE('2024-01-08', 'YYYY-MM-DD'));
+INSERT INTO historicomeditacao (id_historico, id_usuario, id_meditacao, data_acesso)
+	VALUES (5, 5, 5, TO_DATE('2024-01-09', 'YYYY-MM-DD'));
+INSERT INTO historicomeditacao (id_historico, id_usuario, id_meditacao, data_acesso)
+	VALUES (6, 6, 6, TO_DATE('2024-01-10', 'YYYY-MM-DD'));
+INSERT INTO historicomeditacao (id_historico, id_usuario, id_meditacao, data_acesso)
+	VALUES (7, 7, 7, TO_DATE('2024-01-11', 'YYYY-MM-DD'));
+INSERT INTO historicomeditacao (id_historico, id_usuario, id_meditacao, data_acesso)
+	VALUES (8, 8, 8, TO_DATE('2024-01-12', 'YYYY-MM-DD'));
+INSERT INTO historicomeditacao (id_historico, id_usuario, id_meditacao, data_acesso)
+	VALUES (9, 9, 9, TO_DATE('2024-01-13', 'YYYY-MM-DD'));
+INSERT INTO historicomeditacao (id_historico, id_usuario, id_meditacao, data_acesso)
+	VALUES (10, 10, 10, TO_DATE('2024-01-14', 'YYYY-MM-DD'));
 
 INSERT INTO rotinaterapia (id_rotina, id_usuario, nome, descricao) 
     VALUES (rotina_seq.NEXTVAL, 1, 'Rotina Matinal', 'Meditação e alongamento pela manhã');
