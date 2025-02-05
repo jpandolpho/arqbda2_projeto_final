@@ -20,88 +20,88 @@ INSERT INTO usuario (id_usuario, nome, email, senha, data_nascimento, genero)
     VALUES (usuario_seq.NEXTVAL, 'Tiago Fernandes', 'tiago.fernandes@email.com', 'senha159', TO_DATE('1983-02-28', 'YYYY-MM-DD'), 'Masculino');
 
 INSERT INTO psicologo (id_psicologo, nome, email, senha, crp, especialidade, verificado) 
-    VALUES (psicologo_seq.NEXTVAL, 'Dr. Jo√£o Pereira', 'joao.pereira@psicologia.com', 'psico123', 'CRP12345', 'Terapia Cognitivo-Comportamental', 'Y');
+    VALUES (psicologo_seq.NEXTVAL, 'Dr. Jo„o Pereira', 'joao.pereira@psicologia.com', 'psico123', 'CRP12345', 'Terapia Cognitivo-Comportamental', 'Y');
 INSERT INTO psicologo (id_psicologo, nome, email, senha, crp, especialidade, verificado) 
-    VALUES (psicologo_seq.NEXTVAL, 'Dra. Laura Mendes', 'laura.mendes@psicologia.com', 'psico456', 'CRP67890', 'Psican√°lise', 'Y');
+    VALUES (psicologo_seq.NEXTVAL, 'Dra. Laura Mendes', 'laura.mendes@psicologia.com', 'psico456', 'CRP67890', 'Psican·lise', 'Y');
 INSERT INTO psicologo (id_psicologo, nome, email, senha, crp, especialidade, verificado) 
     VALUES (psicologo_seq.NEXTVAL, 'Dr. Pedro Souza', 'pedro.souza@psicologia.com', 'psico789', 'CRP11223', 'Terapia Humanista', 'N');
 INSERT INTO psicologo (id_psicologo, nome, email, senha, crp, especialidade, verificado) 
-    VALUES (psicologo_seq.NEXTVAL, 'Dra. Marina Costa', 'marina.costa@psicologia.com', 'psico321', 'CRP44556', 'Terapia Sist√™mica', 'Y');
+    VALUES (psicologo_seq.NEXTVAL, 'Dra. Marina Costa', 'marina.costa@psicologia.com', 'psico321', 'CRP44556', 'Terapia SistÍmica', 'Y');
 INSERT INTO psicologo (id_psicologo, nome, email, senha, crp, especialidade, verificado) 
     VALUES (psicologo_seq.NEXTVAL, 'Dr. Lucas Lima', 'lucas.lima@psicologia.com', 'psico654', 'CRP77889', 'Terapia Gestalt', 'N');
 INSERT INTO psicologo (id_psicologo, nome, email, senha, crp, especialidade, verificado) 
     VALUES (psicologo_seq.NEXTVAL, 'Dra. Renata Silva', 'renata.silva@psicologia.com', 'psico987', 'CRP99001', 'Terapia de Casal', 'Y');
 INSERT INTO psicologo (id_psicologo, nome, email, senha, crp, especialidade, verificado) 
-    VALUES (psicologo_seq.NEXTVAL, 'Dr. Andr√© Ramos', 'andre.ramos@psicologia.com', 'psico147', 'CRP22334', 'Terapia Infantil', 'Y');
+    VALUES (psicologo_seq.NEXTVAL, 'Dr. AndrÈ Ramos', 'andre.ramos@psicologia.com', 'psico147', 'CRP22334', 'Terapia Infantil', 'Y');
 INSERT INTO psicologo (id_psicologo, nome, email, senha, crp, especialidade, verificado) 
     VALUES (psicologo_seq.NEXTVAL, 'Dra. Camila Rocha', 'camila.rocha@psicologia.com', 'psico258', 'CRP55667', 'Terapia de Grupo', 'N');
 INSERT INTO psicologo (id_psicologo, nome, email, senha, crp, especialidade, verificado) 
     VALUES (psicologo_seq.NEXTVAL, 'Dr. Felipe Martins', 'felipe.martins@psicologia.com', 'psico369', 'CRP88990', 'Terapia Breve', 'Y');
 INSERT INTO psicologo (id_psicologo, nome, email, senha, crp, especialidade, verificado) 
-    VALUES (psicologo_seq.NEXTVAL, 'Dra. Beatriz Ferreira', 'beatriz.ferreira@psicologia.com', 'psico159', 'CRP11224', 'Psicoterapia Anal√≠tica', 'N');
+    VALUES (psicologo_seq.NEXTVAL, 'Dra. Beatriz Ferreira', 'beatriz.ferreira@psicologia.com', 'psico159', 'CRP11224', 'Psicoterapia AnalÌtica', 'N');
 
 INSERT INTO diario (id_diario, id_usuario, data_entrada, conteudo) 
-    VALUES (diario_seq.NEXTVAL, 1, TO_DATE('2024-01-01', 'YYYY-MM-DD'), 'Hoje comecei uma nova rotina de medita√ß√£o.');
+    VALUES (diario_seq.NEXTVAL, 1, TO_DATE('2024-01-01', 'YYYY-MM-DD'), 'Hoje comecei uma nova rotina de meditaÁ„o.');
 INSERT INTO diario (id_diario, id_usuario, data_entrada, conteudo) 
-    VALUES (diario_seq.NEXTVAL, 2, TO_DATE('2024-01-02', 'YYYY-MM-DD'), 'Me senti mais calmo ap√≥s a sess√£o de respira√ß√£o.');
+    VALUES (diario_seq.NEXTVAL, 2, TO_DATE('2024-01-02', 'YYYY-MM-DD'), 'Me senti mais calmo apÛs a sess„o de respiraÁ„o.');
 INSERT INTO diario (id_diario, id_usuario, data_entrada, conteudo) 
-    VALUES (diario_seq.NEXTVAL, 3, TO_DATE('2024-01-03', 'YYYY-MM-DD'), 'Foi um dia dif√≠cil, mas consegui manter o foco.');
+    VALUES (diario_seq.NEXTVAL, 3, TO_DATE('2024-01-03', 'YYYY-MM-DD'), 'Foi um dia difÌcil, mas consegui manter o foco.');
 INSERT INTO diario (id_diario, id_usuario, data_entrada, conteudo) 
-    VALUES (diario_seq.NEXTVAL, 4, TO_DATE('2024-01-04', 'YYYY-MM-DD'), 'A medita√ß√£o me ajudou a dormir melhor esta noite.');
+    VALUES (diario_seq.NEXTVAL, 4, TO_DATE('2024-01-04', 'YYYY-MM-DD'), 'A meditaÁ„o me ajudou a dormir melhor esta noite.');
 INSERT INTO diario (id_diario, id_usuario, data_entrada, conteudo) 
-    VALUES (diario_seq.NEXTVAL, 5, TO_DATE('2024-01-05', 'YYYY-MM-DD'), 'Consegui completar todos os exerc√≠cios da minha rotina.');
+    VALUES (diario_seq.NEXTVAL, 5, TO_DATE('2024-01-05', 'YYYY-MM-DD'), 'Consegui completar todos os exercÌcios da minha rotina.');
 INSERT INTO diario (id_diario, id_usuario, data_entrada, conteudo) 
-    VALUES (diario_seq.NEXTVAL, 6, TO_DATE('2024-01-06', 'YYYY-MM-DD'), 'Senti um pouco de ansiedade, mas escrevendo aqui j√° ajuda.');
+    VALUES (diario_seq.NEXTVAL, 6, TO_DATE('2024-01-06', 'YYYY-MM-DD'), 'Senti um pouco de ansiedade, mas escrevendo aqui j· ajuda.');
 INSERT INTO diario (id_diario, id_usuario, data_entrada, conteudo) 
     VALUES (diario_seq.NEXTVAL, 7, TO_DATE('2024-01-07', 'YYYY-MM-DD'), 'Hoje foi um bom dia para refletir sobre minhas conquistas.');
 INSERT INTO diario (id_diario, id_usuario, data_entrada, conteudo) 
-    VALUES (diario_seq.NEXTVAL, 8, TO_DATE('2024-01-08', 'YYYY-MM-DD'), 'A caminhada pela manh√£ me deu energia para o dia.');
+    VALUES (diario_seq.NEXTVAL, 8, TO_DATE('2024-01-08', 'YYYY-MM-DD'), 'A caminhada pela manh„ me deu energia para o dia.');
 INSERT INTO diario (id_diario, id_usuario, data_entrada, conteudo) 
     VALUES (diario_seq.NEXTVAL, 9, TO_DATE('2024-01-09', 'YYYY-MM-DD'), 'Estou aprendendo a lidar melhor com o estresse.');
 INSERT INTO diario (id_diario, id_usuario, data_entrada, conteudo) 
     VALUES (diario_seq.NEXTVAL, 10, TO_DATE('2024-01-10', 'YYYY-MM-DD'), 'Me senti grato pelas pequenas coisas hoje.');
 
 INSERT INTO exercicio (id_exercicio, titulo, descricao, categoria) 
-    VALUES (exercicio_seq.NEXTVAL, 'Respira√ß√£o Profunda', 'Exerc√≠cio de respira√ß√£o para reduzir o estresse.', 'Relaxamento');
+    VALUES (exercicio_seq.NEXTVAL, 'RespiraÁ„o Profunda', 'ExercÌcio de respiraÁ„o para reduzir o estresse.', 'Relaxamento');
 INSERT INTO exercicio (id_exercicio, titulo, descricao, categoria) 
-    VALUES (exercicio_seq.NEXTVAL, 'Di√°rio da Gratid√£o', 'Anote tr√™s coisas pelas quais voc√™ √© grato hoje.', 'Reflex√£o');
+    VALUES (exercicio_seq.NEXTVAL, 'Di·rio da Gratid„o', 'Anote trÍs coisas pelas quais vocÍ È grato hoje.', 'Reflex„o');
 INSERT INTO exercicio (id_exercicio, titulo, descricao, categoria) 
-    VALUES (exercicio_seq.NEXTVAL, 'Visualiza√ß√£o Positiva', 'Imagine um cen√°rio que te traz felicidade.', 'Imagina√ß√£o');
+    VALUES (exercicio_seq.NEXTVAL, 'VisualizaÁ„o Positiva', 'Imagine um cen·rio que te traz felicidade.', 'ImaginaÁ„o');
 INSERT INTO exercicio (id_exercicio, titulo, descricao, categoria) 
-    VALUES (exercicio_seq.NEXTVAL, 'Medita√ß√£o Guiada', 'Ou√ßa uma medita√ß√£o guiada de 10 minutos.', 'Medita√ß√£o');
+    VALUES (exercicio_seq.NEXTVAL, 'MeditaÁ„o Guiada', 'OuÁa uma meditaÁ„o guiada de 10 minutos.', 'MeditaÁ„o');
 INSERT INTO exercicio (id_exercicio, titulo, descricao, categoria) 
-    VALUES (exercicio_seq.NEXTVAL, 'Alongamento Matinal', 'Fa√ßa alongamentos leves para come√ßar o dia.', 'F√≠sico');
+    VALUES (exercicio_seq.NEXTVAL, 'Alongamento Matinal', 'FaÁa alongamentos leves para comeÁar o dia.', 'FÌsico');
 INSERT INTO exercicio (id_exercicio, titulo, descricao, categoria) 
-    VALUES (exercicio_seq.NEXTVAL, 'Planejamento do Dia', 'Liste as tr√™s tarefas mais importantes.', 'Organiza√ß√£o');
+    VALUES (exercicio_seq.NEXTVAL, 'Planejamento do Dia', 'Liste as trÍs tarefas mais importantes.', 'OrganizaÁ„o');
 INSERT INTO exercicio (id_exercicio, titulo, descricao, categoria) 
     VALUES (exercicio_seq.NEXTVAL, 'Desconectar-se', 'Desligue o celular por 1 hora.', 'Digital Detox');
 INSERT INTO exercicio (id_exercicio, titulo, descricao, categoria) 
-    VALUES (exercicio_seq.NEXTVAL, 'Caminhada Consciente', 'Fa√ßa uma caminhada prestando aten√ß√£o aos detalhes ao redor.', 'Aten√ß√£o Plena');
+    VALUES (exercicio_seq.NEXTVAL, 'Caminhada Consciente', 'FaÁa uma caminhada prestando atenÁ„o aos detalhes ao redor.', 'AtenÁ„o Plena');
 INSERT INTO exercicio (id_exercicio, titulo, descricao, categoria) 
-    VALUES (exercicio_seq.NEXTVAL, 'Autoavalia√ß√£o Emocional', 'Identifique e escreva suas emo√ß√µes do dia.', 'Reflex√£o');
+    VALUES (exercicio_seq.NEXTVAL, 'AutoavaliaÁ„o Emocional', 'Identifique e escreva suas emoÁıes do dia.', 'Reflex„o');
 INSERT INTO exercicio (id_exercicio, titulo, descricao, categoria) 
-    VALUES (exercicio_seq.NEXTVAL, 'Respira√ß√£o 4-7-8', 'Inspire por 4s, segure por 7s e expire por 8s.', 'Relaxamento');
+    VALUES (exercicio_seq.NEXTVAL, 'RespiraÁ„o 4-7-8', 'Inspire por 4s, segure por 7s e expire por 8s.', 'Relaxamento');
 
 INSERT INTO meditacao (id_meditacao, titulo, descricao, duracao) 
-    VALUES (meditacao_seq.NEXTVAL, 'Medita√ß√£o para Ansiedade', 'Pr√°tica para reduzir sintomas de ansiedade.', 10);
+    VALUES (meditacao_seq.NEXTVAL, 'MeditaÁ„o para Ansiedade', 'Pr·tica para reduzir sintomas de ansiedade.', 10);
 INSERT INTO meditacao (id_meditacao, titulo, descricao, duracao) 
-    VALUES (meditacao_seq.NEXTVAL, 'Medita√ß√£o da Aten√ß√£o Plena', 'Foco no momento presente.', 15);
+    VALUES (meditacao_seq.NEXTVAL, 'MeditaÁ„o da AtenÁ„o Plena', 'Foco no momento presente.', 15);
 INSERT INTO meditacao (id_meditacao, titulo, descricao, duracao) 
-    VALUES (meditacao_seq.NEXTVAL, 'Medita√ß√£o do Sono', 'Prepara√ß√£o para uma boa noite de sono.', 20);
+    VALUES (meditacao_seq.NEXTVAL, 'MeditaÁ„o do Sono', 'PreparaÁ„o para uma boa noite de sono.', 20);
 INSERT INTO meditacao (id_meditacao, titulo, descricao, duracao) 
-    VALUES (meditacao_seq.NEXTVAL, 'Medita√ß√£o de Gratid√£o', 'Reflex√£o sobre aspectos positivos da vida.', 12);
+    VALUES (meditacao_seq.NEXTVAL, 'MeditaÁ„o de Gratid„o', 'Reflex„o sobre aspectos positivos da vida.', 12);
 INSERT INTO meditacao (id_meditacao, titulo, descricao, duracao) 
-    VALUES (meditacao_seq.NEXTVAL, 'Medita√ß√£o Guiada para Relaxamento', 'Relaxamento profundo e consciente.', 18);
+    VALUES (meditacao_seq.NEXTVAL, 'MeditaÁ„o Guiada para Relaxamento', 'Relaxamento profundo e consciente.', 18);
 INSERT INTO meditacao (id_meditacao, titulo, descricao, duracao) 
-    VALUES (meditacao_seq.NEXTVAL, 'Medita√ß√£o de Amor-Pr√≥prio', 'Cultivo da autocompaix√£o e aceita√ß√£o.', 14);
+    VALUES (meditacao_seq.NEXTVAL, 'MeditaÁ„o de Amor-PrÛprio', 'Cultivo da autocompaix„o e aceitaÁ„o.', 14);
 INSERT INTO meditacao (id_meditacao, titulo, descricao, duracao) 
-    VALUES (meditacao_seq.NEXTVAL, 'Medita√ß√£o de Respira√ß√£o', 'Foco na respira√ß√£o consciente.', 8);
+    VALUES (meditacao_seq.NEXTVAL, 'MeditaÁ„o de RespiraÁ„o', 'Foco na respiraÁ„o consciente.', 8);
 INSERT INTO meditacao (id_meditacao, titulo, descricao, duracao) 
-    VALUES (meditacao_seq.NEXTVAL, 'Medita√ß√£o para Concentra√ß√£o', 'Melhore seu foco e aten√ß√£o.', 10);
+    VALUES (meditacao_seq.NEXTVAL, 'MeditaÁ„o para ConcentraÁ„o', 'Melhore seu foco e atenÁ„o.', 10);
 INSERT INTO meditacao (id_meditacao, titulo, descricao, duracao) 
-    VALUES (meditacao_seq.NEXTVAL, 'Medita√ß√£o para Al√≠vio do Estresse', 'Liberte tens√µes acumuladas.', 16);
+    VALUES (meditacao_seq.NEXTVAL, 'MeditaÁ„o para AlÌvio do Estresse', 'Liberte tensıes acumuladas.', 16);
 INSERT INTO meditacao (id_meditacao, titulo, descricao, duracao) 
-    VALUES (meditacao_seq.NEXTVAL, 'Medita√ß√£o do Perd√£o', 'Pr√°tica para cultivar o perd√£o.', 22);
+    VALUES (meditacao_seq.NEXTVAL, 'MeditaÁ„o do Perd„o', 'Pr·tica para cultivar o perd„o.', 22);
 
 INSERT INTO historicomeditacao (id_historico, id_usuario, id_meditacao, data_acesso)
 	VALUES (historico_seq.NEXTVAL, 1, 1, TO_DATE('2024-01-05', 'YYYY-MM-DD'));
@@ -125,67 +125,67 @@ INSERT INTO historicomeditacao (id_historico, id_usuario, id_meditacao, data_ace
 	VALUES (historico_seq.NEXTVAL, 10, 10, TO_DATE('2024-01-14', 'YYYY-MM-DD'));
 
 INSERT INTO rotinaterapia (id_rotina, id_usuario, nome, descricao) 
-    VALUES (rotina_seq.NEXTVAL, 1, 'Rotina Matinal', 'Medita√ß√£o e alongamento pela manh√£');
+    VALUES (rotina_seq.NEXTVAL, 1, 'Rotina Matinal', 'MeditaÁ„o e alongamento pela manh„');
 INSERT INTO rotinaterapia (id_rotina, id_usuario, nome, descricao) 
-    VALUES (rotina_seq.NEXTVAL, 2, 'Rotina Noturna', 'Exerc√≠cios de respira√ß√£o antes de dormir');
+    VALUES (rotina_seq.NEXTVAL, 2, 'Rotina Noturna', 'ExercÌcios de respiraÁ„o antes de dormir');
 INSERT INTO rotinaterapia (id_rotina, id_usuario, nome, descricao) 
-    VALUES (rotina_seq.NEXTVAL, 3, 'Rotina de Estudo', 'Pausas para medita√ß√£o durante o estudo');
+    VALUES (rotina_seq.NEXTVAL, 3, 'Rotina de Estudo', 'Pausas para meditaÁ„o durante o estudo');
 INSERT INTO rotinaterapia (id_rotina, id_usuario, nome, descricao) 
-    VALUES (rotina_seq.NEXTVAL, 4, 'Rotina de Foco', 'Exerc√≠cios para aumentar a concentra√ß√£o');
+    VALUES (rotina_seq.NEXTVAL, 4, 'Rotina de Foco', 'ExercÌcios para aumentar a concentraÁ„o');
 INSERT INTO rotinaterapia (id_rotina, id_usuario, nome, descricao) 
-    VALUES (rotina_seq.NEXTVAL, 5, 'Rotina Relaxante', 'Atividades relaxantes ap√≥s o trabalho');
+    VALUES (rotina_seq.NEXTVAL, 5, 'Rotina Relaxante', 'Atividades relaxantes apÛs o trabalho');
 INSERT INTO rotinaterapia (id_rotina, id_usuario, nome, descricao) 
-    VALUES (rotina_seq.NEXTVAL, 6, 'Rotina de Gratid√£o', 'Escrever no di√°rio ao final do dia');
+    VALUES (rotina_seq.NEXTVAL, 6, 'Rotina de Gratid„o', 'Escrever no di·rio ao final do dia');
 INSERT INTO rotinaterapia (id_rotina, id_usuario, nome, descricao) 
-    VALUES (rotina_seq.NEXTVAL, 7, 'Rotina de Motiva√ß√£o', 'Exerc√≠cios para come√ßar o dia com energia');
+    VALUES (rotina_seq.NEXTVAL, 7, 'Rotina de MotivaÁ„o', 'ExercÌcios para comeÁar o dia com energia');
 INSERT INTO rotinaterapia (id_rotina, id_usuario, nome, descricao) 
-    VALUES (rotina_seq.NEXTVAL, 8, 'Rotina de Ansiedade', 'T√©cnicas para controle da ansiedade');
+    VALUES (rotina_seq.NEXTVAL, 8, 'Rotina de Ansiedade', 'TÈcnicas para controle da ansiedade');
 INSERT INTO rotinaterapia (id_rotina, id_usuario, nome, descricao) 
-    VALUES (rotina_seq.NEXTVAL, 9, 'Rotina de Produtividade', 'Organiza√ß√£o de tarefas di√°rias');
+    VALUES (rotina_seq.NEXTVAL, 9, 'Rotina de Produtividade', 'OrganizaÁ„o de tarefas di·rias');
 INSERT INTO rotinaterapia (id_rotina, id_usuario, nome, descricao) 
     VALUES (rotina_seq.NEXTVAL, 10, 'Rotina de Autocuidado', 'Momentos para autocuidado e bem-estar');
 
 INSERT INTO atividaderotina (id_atividade, id_rotina, id_exercicio, status, data_agendada) 
     VALUES (atividade_seq.NEXTVAL, 1, 1, 'Pendente', TO_DATE('2024-02-01', 'YYYY-MM-DD'));
 INSERT INTO atividaderotina (id_atividade, id_rotina, id_exercicio, status, data_agendada) 
-    VALUES (atividade_seq.NEXTVAL, 2, 2, 'Conclu√≠do', TO_DATE('2024-02-02', 'YYYY-MM-DD'));
+    VALUES (atividade_seq.NEXTVAL, 2, 2, 'ConcluÌdo', TO_DATE('2024-02-02', 'YYYY-MM-DD'));
 INSERT INTO atividaderotina (id_atividade, id_rotina, id_exercicio, status, data_agendada) 
     VALUES (atividade_seq.NEXTVAL, 3, 3, 'Pendente', TO_DATE('2024-02-03', 'YYYY-MM-DD'));
 INSERT INTO atividaderotina (id_atividade, id_rotina, id_exercicio, status, data_agendada) 
-    VALUES (atividade_seq.NEXTVAL, 4, 4, 'Conclu√≠do', TO_DATE('2024-02-04', 'YYYY-MM-DD'));
+    VALUES (atividade_seq.NEXTVAL, 4, 4, 'ConcluÌdo', TO_DATE('2024-02-04', 'YYYY-MM-DD'));
 INSERT INTO atividaderotina (id_atividade, id_rotina, id_exercicio, status, data_agendada) 
     VALUES (atividade_seq.NEXTVAL, 5, 5, 'Pendente', TO_DATE('2024-02-05', 'YYYY-MM-DD'));
 INSERT INTO atividaderotina (id_atividade, id_rotina, id_exercicio, status, data_agendada) 
-    VALUES (atividade_seq.NEXTVAL, 6, 6, 'Conclu√≠do', TO_DATE('2024-02-06', 'YYYY-MM-DD'));
+    VALUES (atividade_seq.NEXTVAL, 6, 6, 'ConcluÌdo', TO_DATE('2024-02-06', 'YYYY-MM-DD'));
 INSERT INTO atividaderotina (id_atividade, id_rotina, id_exercicio, status, data_agendada) 
     VALUES (atividade_seq.NEXTVAL, 7, 7, 'Pendente', TO_DATE('2024-02-07', 'YYYY-MM-DD'));
 INSERT INTO atividaderotina (id_atividade, id_rotina, id_exercicio, status, data_agendada) 
-    VALUES (atividade_seq.NEXTVAL, 8, 8, 'Conclu√≠do', TO_DATE('2024-02-08', 'YYYY-MM-DD'));
+    VALUES (atividade_seq.NEXTVAL, 8, 8, 'ConcluÌdo', TO_DATE('2024-02-08', 'YYYY-MM-DD'));
 INSERT INTO atividaderotina (id_atividade, id_rotina, id_exercicio, status, data_agendada) 
     VALUES (atividade_seq.NEXTVAL, 9, 9, 'Pendente', TO_DATE('2024-02-09', 'YYYY-MM-DD'));
 INSERT INTO atividaderotina (id_atividade, id_rotina, id_exercicio, status, data_agendada) 
-    VALUES (atividade_seq.NEXTVAL, 10, 10, 'Conclu√≠do', TO_DATE('2024-02-10', 'YYYY-MM-DD'));
+    VALUES (atividade_seq.NEXTVAL, 10, 10, 'ConcluÌdo', TO_DATE('2024-02-10', 'YYYY-MM-DD'));
 
 INSERT INTO mensagem (id_mensagem, id_usuario, id_psicologo, conteudo, data_envio) 
-    VALUES (mensagem_seq.NEXTVAL, 1, 1, 'Ol√°, gostaria de agendar uma consulta.', TO_DATE('2024-01-15', 'YYYY-MM-DD'));
+    VALUES (mensagem_seq.NEXTVAL, 1, 1, 'Ol·, gostaria de agendar uma consulta.', TO_DATE('2024-01-15', 'YYYY-MM-DD'));
 INSERT INTO mensagem (id_mensagem, id_usuario, id_psicologo, conteudo, data_envio) 
     VALUES (mensagem_seq.NEXTVAL, 2, 2, 'Preciso de ajuda com ansiedade.', TO_DATE('2024-01-16', 'YYYY-MM-DD'));
 INSERT INTO mensagem (id_mensagem, id_usuario, id_psicologo, conteudo, data_envio) 
-    VALUES (mensagem_seq.NEXTVAL, 3, 3, 'Como posso melhorar minha concentra√ß√£o?', TO_DATE('2024-01-17', 'YYYY-MM-DD'));
+    VALUES (mensagem_seq.NEXTVAL, 3, 3, 'Como posso melhorar minha concentraÁ„o?', TO_DATE('2024-01-17', 'YYYY-MM-DD'));
 INSERT INTO mensagem (id_mensagem, id_usuario, id_psicologo, conteudo, data_envio) 
     VALUES (mensagem_seq.NEXTVAL, 4, 4, 'Estou me sentindo sobrecarregado.', TO_DATE('2024-01-18', 'YYYY-MM-DD'));
 INSERT INTO mensagem (id_mensagem, id_usuario, id_psicologo, conteudo, data_envio) 
-    VALUES (mensagem_seq.NEXTVAL, 5, 5, 'Preciso de orienta√ß√£o profissional.', TO_DATE('2024-01-19', 'YYYY-MM-DD'));
+    VALUES (mensagem_seq.NEXTVAL, 5, 5, 'Preciso de orientaÁ„o profissional.', TO_DATE('2024-01-19', 'YYYY-MM-DD'));
 INSERT INTO mensagem (id_mensagem, id_usuario, id_psicologo, conteudo, data_envio) 
-    VALUES (mensagem_seq.NEXTVAL, 6, 6, 'Quais exerc√≠cios recomendados para estresse?', TO_DATE('2024-01-20', 'YYYY-MM-DD'));
+    VALUES (mensagem_seq.NEXTVAL, 6, 6, 'Quais exercÌcios recomendados para estresse?', TO_DATE('2024-01-20', 'YYYY-MM-DD'));
 INSERT INTO mensagem (id_mensagem, id_usuario, id_psicologo, conteudo, data_envio) 
     VALUES (mensagem_seq.NEXTVAL, 7, 7, 'Gostaria de compartilhar meu progresso.', TO_DATE('2024-01-21', 'YYYY-MM-DD'));
 INSERT INTO mensagem (id_mensagem, id_usuario, id_psicologo, conteudo, data_envio) 
-    VALUES (mensagem_seq.NEXTVAL, 8, 8, 'Estou interessado em t√©cnicas de respira√ß√£o.', TO_DATE('2024-01-22', 'YYYY-MM-DD'));
+    VALUES (mensagem_seq.NEXTVAL, 8, 8, 'Estou interessado em tÈcnicas de respiraÁ„o.', TO_DATE('2024-01-22', 'YYYY-MM-DD'));
 INSERT INTO mensagem (id_mensagem, id_usuario, id_psicologo, conteudo, data_envio) 
     VALUES (mensagem_seq.NEXTVAL, 9, 9, 'Como posso controlar minha ansiedade?', TO_DATE('2024-01-23', 'YYYY-MM-DD'));
 INSERT INTO mensagem (id_mensagem, id_usuario, id_psicologo, conteudo, data_envio) 
-    VALUES (mensagem_seq.NEXTVAL, 10, 10, 'Obrigado pela √∫ltima consulta!', TO_DATE('2024-01-24', 'YYYY-MM-DD'));
+    VALUES (mensagem_seq.NEXTVAL, 10, 10, 'Obrigado pela ˙ltima consulta!', TO_DATE('2024-01-24', 'YYYY-MM-DD'));
 
 INSERT INTO progressoexercicio (id_progresso, id_usuario, id_exercicio, status, data_conclusao) 
     VALUES (progresso_seq.NEXTVAL, 1, 1, 100, TO_DATE('2024-01-05', 'YYYY-MM-DD'));
