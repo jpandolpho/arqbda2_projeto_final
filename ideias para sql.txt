@@ -1,9 +1,0 @@
-(FEITO)trigger para colocar data de conclusão em um exercicio
-
-procedure para inserir valores no histórico de meditação(toda vez que um usuário acessar uma meditação)
-
-function para alterar estado de verificação de um psicologo
-
-view para mostar nome de usuário, nome de cada exercício que ele está fazendo e o progresso nesse exercício
-
-
