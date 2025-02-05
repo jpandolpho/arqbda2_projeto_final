@@ -1,4 +1,4 @@
-trigger para colocar data de conclusão em um exercicio e concluir uma rotina
+(FEITO)trigger para colocar data de conclusão em um exercicio
 
 procedure para inserir valores no histórico de meditação(toda vez que um usuário acessar uma meditação)
 
