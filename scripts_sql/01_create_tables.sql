@@ -39,7 +39,7 @@ CREATE TABLE meditacao (
     duracao INT NOT NULL
 );
 
-CREATE TABLE historicameditacao (
+CREATE TABLE historicomeditacao (
     id_historico INT PRIMARY KEY,
     id_usuario INT NOT NULL,
     id_meditacao INT NOT NULL,
@@ -81,7 +81,7 @@ CREATE TABLE progressoexercicio (
     id_usuario INT NOT NULL,
     id_exercicio INT NOT NULL,
     status INT NOT NULL,
-    data_conclusao DATE NOT NULL,
+    data_conclusao DATE,
     CONSTRAINT fk_progresso_usuario FOREIGN KEY (id_usuario) REFERENCES usuario(id_usuario),
     CONSTRAINT fk_progresso_exercicio FOREIGN KEY (id_exercicio) REFERENCES exercicio(id_exercicio)
 );
